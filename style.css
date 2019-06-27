@@ -1,0 +1,88 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+/* ---- typography ---- */
+
+body {
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  color: white;
+
+}
+
+h2 {}
+
+h3 {}
+
+
+
+
+/* ---- layout ---- */
+
+main {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+nav ul {
+  width: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+nav ul li {
+  text-decoration: none;
+}
+
+header.top img {
+  margin: 0 auto;
+  height: 200px;
+}
+
+header.top {
+  background-image: url("https://www.thetimes.co.uk/imageserver/image/methode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F8347b612-9277-11e8-86ee-e22d14bef8b7.jpg?crop=2250%2C1266%2C0%2C117&resize=685");
+  background-size: cover;
+  background-position: bottom-center;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+  border: 
+}
+
+header .content {
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  position: relative;
+  top: 50%;
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+
+#site-header {}
+
+#site-footer {}
+
+#site-main {}
+
+
+
+
+/* ---- components ---- */
