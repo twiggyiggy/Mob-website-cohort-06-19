@@ -13,7 +13,7 @@ var students = [
   },
   {
     name:  'Anna E.',
-    url:  'annaE',
+    url:  'annaE.html',
   },
   {
     name:  'Paolo',
