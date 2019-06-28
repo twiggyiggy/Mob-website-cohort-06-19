@@ -49,7 +49,7 @@ var students = [
   },
   {
     name:  'Jorge',
-    url:  '#0',
+    url:  'jorge.html',
   },
   {
     name:  'Ignacio',
@@ -89,6 +89,6 @@ var students = [
   },
   {
     name:  'Jairo',
-    url:  '#0',
+    url:  'jairo.html',
   }
 ]
