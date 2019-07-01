@@ -1,0 +1,101 @@
+
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+/* ---- typography ---- */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+
+
+
+/* ---- layout ---- */
+
+
+main {
+  margin: 0 auto;
+  display: flex;
+  align-content: stretch;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  max-width: 500px;
+
+  display: flex;
+  flex-flow: row wrap; 
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  align-items: center;
+  background: blue;
+}
+
+
+nav ul a {
+  text-align: cetner;
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+  border-top: 1px solid rgba(255,255,255,0.3); 
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  flex-grow: 1;
+}
+
+header {
+  display: flex;
+}
+
+header.top img {
+  margin: 0 auto;
+  height: 200px;
+}
+
+header.top {
+  display: flex;
+  justify-content: center;
+  background-image: url("./images/Rudy-I-Ja.jpg")
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header .content {
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  position: relative;
+  top: 50%;
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
